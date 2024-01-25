@@ -2,7 +2,7 @@
 
 #let callout(
   type: "note",
-  title: "",
+  title: none,
   width: 100%,
   height: auto,
   body
@@ -21,7 +21,8 @@
   radius: 4pt,
   stroke: (left: 2pt+title-color)
 )[
-  #grid(
+  #if title != none {
+    grid(
     columns: 2,
     column-gutter: 1.4em,
     rows: 1,
@@ -37,6 +38,7 @@
       size: 1.3em
     )[#title]
   )
+  }
   #body
 ]
 }
