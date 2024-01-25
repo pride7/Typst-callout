@@ -3,7 +3,7 @@ This is a simple implementation for "callout" in Typst.
 
 ## Configure
 There are 7 types for callout:
-- note
+- note (default)
 - warning
 - check
 - summary
