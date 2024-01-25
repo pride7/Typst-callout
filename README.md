@@ -38,5 +38,8 @@ For example,
   #lorem(20)
 ]
 ```
+>You can use the `#grid()` to control the layout to achieve multi-callout group.
 
-<img src="example.png" width = "300" alt="exmaple" />
+<img src="example.png" alt="exmaple" />
+
+<img src="example2.png" alt="exmaple2" />
