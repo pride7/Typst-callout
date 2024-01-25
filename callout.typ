@@ -1,7 +1,6 @@
 #import "configure.typ": configure
 
 #let callout(
-  logo: "images/pen.png",
   type: "note",
   title: "",
   body
