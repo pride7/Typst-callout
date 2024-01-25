@@ -3,6 +3,8 @@
 #let callout(
   type: "note",
   title: "",
+  width: 100%,
+  height: auto,
   body
 ) = {
   let (logo, box-color, title-color) = (
@@ -12,7 +14,8 @@
     )
 
   block(
-  width: 100%,
+  width: width,
+  height: height,
   fill: box-color,
   inset: 8pt,
   radius: 4pt,

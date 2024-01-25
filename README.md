@@ -1,8 +1,11 @@
 # Typst-callout
+
 This is a simple implementation for "callout" in Typst.
 
 ## Configure
+
 There are 7 types for callout:
+
 - note (default)
 - warning
 - check
@@ -16,6 +19,7 @@ You can see the results in the `example.pdf`.
 The configuration of each type is saved in `configure.typ` by using a dictionary `configure`. So you can insert other type by yourself.
 
 For example,
+
 ```typst
 #configure.insert(
   "note",
@@ -28,6 +32,7 @@ For example,
 ```
 
 ## Usage
+
 ```typst
 #import "callout.typ": callout
 
@@ -38,8 +43,9 @@ For example,
   #lorem(20)
 ]
 ```
->You can use the `#grid()` to control the layout to achieve multi-callout group.
 
-<img src="example.png" alt="exmaple" />
+> You can use the `#grid()` to control the layout to achieve multi-callout group.
 
-<img src="example2.png" alt="exmaple2" />
+<img src="example/example.png" alt="exmaple" />
+
+<img src="example/example2.png" alt="exmaple2" />
