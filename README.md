@@ -10,6 +10,7 @@ There are 7 types for callout:
 - question
 - example
 - quote
+
 You can see the results in the `example.pdf`.
 
 The configuration of each type is saved in `configure.typ` by using a dictionary `configure`. So you can insert other type by yourself.
