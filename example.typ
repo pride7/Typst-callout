@@ -86,3 +86,36 @@
     #lorem(15)
   ],
 )
+
+
+#pagebreak()
+#callout(
+  title:[1st Callout],
+  type:"note"
+)[
+  #grid(
+    columns: 2,
+    column-gutter: 5pt,
+    callout(
+      title:[2nd Callout],
+      type:"summary"
+    )[
+      #lorem(45)
+    ],
+    grid(
+      columns:1,
+      callout(
+        title:[3rd Callout],
+        type:"check"
+      )[
+        #lorem(15)
+      ],
+      callout(
+        title:[4th Callout],
+        type:"warning"
+      )[
+        #lorem(15)
+      ]
+    )
+  )
+]
