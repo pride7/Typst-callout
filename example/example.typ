@@ -1,4 +1,4 @@
-#import "callout.typ": callout
+#import "../callout.typ": callout
 
 //#set text(font:"LXGW WenKai")
 
@@ -98,9 +98,10 @@
     column-gutter: 5pt,
     callout(
       title:[2nd Callout],
-      type:"summary"
+      type:"summary",
+      height:20%,
     )[
-      #lorem(45)
+      #lorem(15)
     ],
     grid(
       columns:1,
