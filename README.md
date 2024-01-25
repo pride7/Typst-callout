@@ -38,3 +38,5 @@ For example,
   #lorem(20)
 ]
 ```
+
+<img src="example.png" width = "300" alt="exmaple" />
