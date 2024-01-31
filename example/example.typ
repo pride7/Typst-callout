@@ -1,7 +1,7 @@
 #import "../callout.typ": callout
 #set heading(numbering: "1")
 
-//#set text(font:"LXGW WenKai")
+#set text(font:"LXGW WenKai")
 
 #align(
   center
@@ -143,3 +143,8 @@
   )
 ]
 
+#callout(
+  title:[无icon的标题],
+  icon:false)[
+  记录一点点东西
+]
