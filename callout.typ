@@ -20,7 +20,7 @@
   fill: box-color,
   inset: 8pt,
   radius: 4pt,
-  stroke: (left: 2pt+title-color)
+  stroke: (left: 0.2em+title-color)
 )[
   #if title != none {
     if icon == true {
@@ -53,7 +53,7 @@
 ]
 }
 
-
+#callout[#lorem(50)]
 
 
 

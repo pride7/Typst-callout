@@ -6,3 +6,11 @@
 #let c5 = callout.with(type:"question")
 #let c6 = callout.with(type:"example")
 #let c7 = callout.with(type:"quote")
+
+#let nc1 = callout.with(type:"note", icon:false)
+#let nc2 = callout.with(type:"warning", icon:false)
+#let nc3 = callout.with(type:"check", icon:false)
+#let nc4 = callout.with(type:"summary", icon:false)
+#let nc5 = callout.with(type:"question", icon:false)
+#let nc6 = callout.with(type:"example", icon:false)
+#let nc7 = callout.with(type:"quote", icon:false)
